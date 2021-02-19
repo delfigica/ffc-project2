@@ -1,0 +1,80 @@
+body{
+    background:linear-gradient(0deg, rgba(206, 206, 206, 0.493), rgba(216, 216, 216, 0.493)), url(https://image.freepik.com/foto-gratis/grupo-jovenes-trabajando-juntos_23-2148499844.jpg);
+    background-size: cover;
+    color: white;
+}
+header {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    color: rgb(22, 22, 22);
+}
+.container {
+    display: flex;
+    justify-content: center;
+}
+label {
+    display: block;
+    margin: 10px 0px;
+}
+input[type=text], [type=number], [type=textarea], select{
+    width: 630px;
+    padding: 12px 20px;
+    margin: 8px 0px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border: none;
+}
+form {
+    background-color: rgba(0, 0, 0, 0.781);
+    max-width: 720px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 30px 40px;
+}
+input[type=submit]{
+    display: block;
+    width: 630px;
+    height: 40px;
+    margin: 20px 0px;
+    background-color: rgb(226, 240, 102);
+    color: rgb(0, 0, 0);
+    border: none;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2em;
+}
+textarea {
+    width: 630px;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+    margin: 10px 0px;
+}
+h1 {
+    font-family: 'Overpass', sans-serif;
+    font-size: 2em;
+    margin: 5px;
+}
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+    margin: 5px;
+    text-shadow: 1px 1px black;
+}
+p, form, input::placeholder, textarea, select{
+    font-family: 'Comfortaa', cursive;
+    font-size: 1em;
+}
+p {
+    margin: 2.5px;
+    margin-top: 20px;
+}
+input[type=checkbox], input[type=radio]{
+    margin: 0px 10px;
+}
