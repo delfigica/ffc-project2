@@ -22,18 +22,18 @@
   </head>
   <body>
     <header>
-      <h1>freeCodeCamp Survey Form</h1>
-      <h2>Thank you for taking the time to help us improve the platform</h2>
+      <h1 id="title">freeCodeCamp Survey Form</h1>
+      <p id="description">Thank you for taking the time to help us improve the platform</h2>
     </header>
     <main>
       <div class="container">
-        <form action="">
+        <form id="survey-form" action="">
           <p>Name</p>
-          <input type="text" placeholder="Enter your name" />
+          <input id="name" type="text" placeholder="Enter your name" />
           <p>Email</p>
-          <input type="text" placeholder="Enter your Email" />
+          <input id="email" type="email" placeholder="Enter your Email" />
           <p>Age (optional)</p>
-          <input type="number" placeholder="Age" />
+          <input id="number" type="number" placeholder="Age" />
           <p></p>
           <label for="role"
             >Which option best describes your current role?</label
@@ -62,7 +62,7 @@
           <label for="favoriteFeature"
             >What is your favorite feature of freeCodeCamp?</label
           >
-          <select id="favoriteFeature" name="favoriteFeature">
+          <select id="dropdown" name="favoriteFeature">
             <option value="selected" selected disabled>Select an option</option>
             <option value="Challenges">Challenges</option>
             <option value="Projects">Projects</option>
@@ -127,7 +127,7 @@
           <textarea name="textarea" rows="10" cols="50">
 Enter your comment here...</textarea
           >
-          <input type="submit" />
+          <input id="submit" type="submit" />
         </form>
       </div>
     </main>

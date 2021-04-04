@@ -17,7 +17,7 @@ label {
     display: block;
     margin: 10px 0px;
 }
-input[type=text], [type=number], [type=textarea], select{
+input[type=text], [type=number], [type=textarea], [type=email], select{
     width: 630px;
     padding: 12px 20px;
     margin: 8px 0px;
@@ -26,7 +26,7 @@ input[type=text], [type=number], [type=textarea], select{
     margin-bottom: 10px;
     border: none;
 }
-form {
+#survey-form {
     background-color: rgba(0, 0, 0, 0.781);
     max-width: 720px;
     width: 100%;
@@ -56,18 +56,18 @@ textarea {
     resize: none;
     margin: 10px 0px;
 }
-h1 {
+#title {
     font-family: 'Overpass', sans-serif;
     font-size: 2em;
     margin: 5px;
 }
-h2 {
+#description {
     font-family: 'Roboto', sans-serif;
     font-size: 1.2em;
     margin: 5px;
     text-shadow: 1px 1px black;
 }
-p, form, input::placeholder, textarea, select{
+p, #survey-form, input::placeholder, textarea, select{
     font-family: 'Comfortaa', cursive;
     font-size: 1em;
 }
